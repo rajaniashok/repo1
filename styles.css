@@ -1,0 +1,164 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.auth button {
+    margin-left: 10px;
+    padding: 8px 15px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.auth button:hover {
+    background-color: #444;
+    color: #fff;
+}
+
+.cart a {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.cart img {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+main {
+    padding: 20px;
+    background-color: #fff;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.products-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.product-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    width: 18%;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-item h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.product-item p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.add-to-cart {
+    padding: 8px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add-to-cart:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-content {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+}
+
+.footer-links, .footer-social, .footer-shipping {
+    width: 30%;
+}
+
+.footer-links h4, .footer-social h4, .footer-shipping h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    margin: 8px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
